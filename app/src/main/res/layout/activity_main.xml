@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/back"
     android:orientation="vertical"
+    android:layout_gravity="center"
     tools:context=".MainActivity">
 
 
@@ -79,21 +80,21 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/eduction"
+                android:id="@+id/aboutMe"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:text="Education"
+                android:text="About Me"
                 android:textSize="20sp" />
 
             <Button
-                android:id="@+id/achivements"
+                android:id="@+id/Resume"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:text="Achivements"
+                android:text="Resume"
                 android:textSize="20sp" />
         </LinearLayout>
 
@@ -111,14 +112,33 @@
             android:gravity="center"
             android:text="Portfolio App" />
 
-        <TextView
-            android:layout_marginTop="-5dp"
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="LinkedIn | Github" />
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:layout_marginTop="-5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Linkedin"/>
+
+            <TextView
+                android:layout_marginTop="-5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=" | " />
+
+            <TextView
+                android:layout_marginTop="-5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Github" />
+        </LinearLayout>
     </LinearLayout>
-
-
-
 </LinearLayout>

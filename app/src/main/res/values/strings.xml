@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Portfolio</string>
+    <string name="technical_skills"><u>Technical skills</u></string>
+    <string name="Soft_skills"><u>Soft skills</u></string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
 </resources>
